@@ -42,6 +42,7 @@ const UTILS_DIR: &str = "utils";
 const MANIFEST_NAME: &str = "bonsai.toml";
 // emscripten
 const EMSCRIPTEN_FLAGS: &str = "-sWASM_BIGINT \
+-sUSE_WEBGL2=1 \
 -sWARN_ON_UNDEFINED_SYMBOLS=0 \
 -sALLOW_MEMORY_GROWTH \
 -sINITIAL_MEMORY=67108864 \
